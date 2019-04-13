@@ -1,0 +1,15 @@
+.tarjetas-grid {
+    background-color: #eeeeee;
+    transition: filter 250ms;
+
+    .grid-image {
+        width: 100%;
+        height: 30px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+.blur .tarjetas-grid {
+    filter: blur(5px) grayscale(80%);
+}
